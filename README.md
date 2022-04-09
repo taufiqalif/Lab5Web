@@ -34,7 +34,7 @@ JavaScript digunakan untuk memprogram perilaku halaman web, diantaranya adalah:
 
 ![07.png](img/07.png)
 
-![08.png](img/09.png)
+![08.png](img/08.png)
 
 ![09.png](img/09.png)
 
