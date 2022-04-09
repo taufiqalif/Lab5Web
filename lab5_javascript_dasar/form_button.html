@@ -1,33 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>objek document</title>
 </head>
+
 <body>
 
   <script language="javascript">
-    function ubahWarnaLB(warna){
+    function ubahWarnaLB(warna) {
       document.bgColor = warna;
     }
-    function ubahWarna(warna){
-      document.bgColor = warna;
+
+    function ubahWarnaLD(warna) {
+      document.fgColor = warna;
     }
   </script>
 
   <h1>tes</h1>
 
   <form action="">
-    <input type="button" value="latar belakan hijau" onclick="">
-    <input type="button" value="latar belakang putih" onclick="">
-    <input type="button" value="teks kuning" onclick="">
-    <input type="button" value="teks biru" onclick="">
+    <input type="button" value="latar belakan hijau" onclick="ubahWarnaLB('GREEN')">
+    <input type="button" value="latar belakang putih" onclick="ubahWarnaLB('WHITE')">
+    <input type="button" value="teks kuning" onclick="ubahWarnaLD('YELLOW')">
+    <input type="button" value="teks biru" onclick="ubahWarnaLD('BLUE')">
   </form>
 
   <script language="javascript">
     document.write("Dimodifikasi trakhir pada " + document.lastModified);
   </script>
 </body>
+
 </html>
