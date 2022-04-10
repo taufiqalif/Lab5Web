@@ -63,3 +63,9 @@ JavaScript digunakan untuk memprogram perilaku halaman web, diantaranya adalah:
 ![21.png](img/21.png)
 
 ![22.png](img/22.png)
+
+![23.png](img/23.png)
+
+![24.png](img/24.png)
+
+![25.png](img/25.png)
