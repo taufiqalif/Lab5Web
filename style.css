@@ -1,0 +1,64 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-color: aqua;
+}
+
+.container{
+  width: 400px;
+  margin: 0 auto;
+  box-shadow: 0 0 1em #cccccc;
+}
+
+.kontak{
+  width: 100%;
+  height: auto;
+  float: left;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.contact {
+  background-color: #f5f5f5;
+  padding: 50px 20px;
+  margin-bottom: 20px;
+}
+
+.contact h2{
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.contact .form-group input{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.contact .form-group textarea{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.btn{
+  width: 100%;
+  background-color: #1f5faa;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
